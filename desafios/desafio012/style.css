@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+Body {
+    min-width: 100%vh;
+    background-color: rgb(137, 186, 230);
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    background-color: aliceblue;
+    color: black;
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    background-color: black;
+    width: 400px;
+}
+
+section.imagem {
+    background-color: rgb(90, 88, 88);
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
