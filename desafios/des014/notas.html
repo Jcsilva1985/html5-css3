@@ -17,10 +17,16 @@
 
         th, td {
             width: 150px;
-            border: 1px solid black
-           
-            
+            border: 1px solid black       
         }
+
+        thead {
+            background-color: gray;
+        }
+       .media {
+        text-align: left;
+        background-color: gray;
+       }
     </style>
 </head>
 <body>
@@ -65,9 +71,31 @@
             </tr>
 
             <tr>
-                <th colspan="4">Médias das Exatas</th>
-                <td>0,0</td>
+                <th colspan="4" class="media">Médias das Exatas</th>
+                <td class="media">0,0</td>
             </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+           </tr>
+
+           <tr>
+                <td>Geografia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+           </tr>
+
+           <tr>
+            <th colspan="4" class="media">Médias das Humanas</th>
+            <td class="media">0,0</td>
+        </tr>
+
+
         </tbody>
     </table>
 
